@@ -1,11 +1,11 @@
 // test_shop_supplier.cpp
-#include "catch_amalgamated.hpp"
-#include "shop.h"
-#include "supplier.h"
-#include "bread.h"
-#include "mineral_water.h"
-#include "notebook.h"
-#include "pen.h"
+#include "catch_amalgamated.cpp"
+#include "shop.cpp"
+#include "supplier.cpp"
+#include "bread.cpp"
+#include "mineral_water.cpp"
+#include "notebook.cpp"
+#include "pen.cpp"
 
 TEST_CASE("Shop addToStore and checkAvailability methods", "[Shop]") {
     Shop shop;
